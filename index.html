@@ -13,10 +13,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>ร้านวิลาวัลย์ <br> โปรแกรมคำนวนราคาผ้าม่าน</h1>
-        <h2>สำหรับผ้าม่านรูปแบบม่านตาไก่/ม่านจีบ ประกอบด้วยผ้าทึบและผ้าโปร่ง</h2>
+        <h1 class="mitr-medium">ร้านวิลาวัลย์ <br> โปรแกรมคำนวนราคาผ้าม่าน</h1>
+        <h2 class="mitr-medium">สำหรับผ้าม่านรูปแบบม่านตาไก่/ม่านจีบ ประกอบด้วยผ้าทึบและผ้าโปร่ง</h2>
         <form id="curtainForm">
-        <div>
+        <div class="mitr-medium">
             <label for="width">ความกว้าง (เมตร):</label>
             <input type="number" id="width" name="width" step="0.5" required>
             <label for="height">ความยาว (เมตร) ไม่เกิน 2.8 เมตร:</label>
@@ -28,12 +28,12 @@
             <label for="discount">ส่วนลด (%):</label>
             <input type="number" id="discount" name="discount" step="5" value="0" required>
         </div>
-        <div>
+        <div class="mitr-medium">
             <button type="button" onclick="calculatePrice()">คำนวนราคา</button>
         </div>
         </form>
-        <div id="result"></div>
+        <div id="result" class="mitr-medium"> </div>
     </div>
-    <script src="script.js"></script>
+    <script class="mitr-medium" src="script.js"></script>
 </body>
 </html>
